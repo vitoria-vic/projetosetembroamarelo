@@ -1,0 +1,233 @@
+/*CSS geral do projeto*/
+
+
+body, textarea{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+
+
+}
+
+
+/*Definição estilo para cabeçalhos, H1, h2, h3*/
+
+
+h1, h2, h3{
+    color: #333;
+}
+
+
+p{
+    color: #70747A;
+}
+
+
+/*Barra de navegação*/
+
+
+/*Definir o estilo para o container da barra de navegação*/
+.navbar-container{
+    width: 100%;
+    height: 80px;
+    background-color: #232a31;
+    padding: 0 2em;
+    position: relative;
+    box-sizing: border-box;
+
+
+}
+
+
+.logo{
+    width: 100px;/*largura*/
+    margin-top: 15px;
+
+
+}
+
+
+nav{
+   position: relative;
+}
+
+
+.navbar-items{
+    list-style: none;
+    position: absolute;
+    display: inline-block;
+    height: 80px;
+    margin: 0;
+    right: 0;
+    line-height: 80px;
+}
+
+
+.navbar-items li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+
+.navbar-items li a{
+    color: #fff;
+    text-decoration: none;
+
+
+}
+
+
+.navbar-items li a:hover{
+    color: #ccc;
+}
+
+
+
+
+/*Main Banner*/
+.main-banner{
+    width: 100%;
+}
+
+
+.main-banner img{
+    width: 100%;
+}
+
+
+/*Especialidades*/
+
+
+.container-especial{
+    padding: 10px 0;
+}
+
+
+.container-especial ul{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    position: relative;
+    margin: auto;
+}
+
+
+
+
+.container-especial ul li{
+    flex: 1 1 200px;/*Define o crescimento, encolhimento, largura mínima - flex grow, flex-shrink, largura*/
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.container-especial ul li p{
+    text-align: justify;
+}
+
+
+.container-especial ul li img{
+    width: 50px;
+}
+
+
+.compromisso{
+    text-align: center;
+}
+
+
+.compromisso h2{
+    font-size: 36px;
+    margin-top: 0;
+}
+
+
+.compromisso h3{
+    font-size: 24px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+
+.compromisso p{
+    font-size: 20px;
+    margin-top: 0;
+    color: #000;
+    text-align: justify;
+    hyphens: auto;/*hífen*/
+}
+
+
+.compromisso-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-between;
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+
+.compromisso-container .compro-title{
+    flex: 1 1 200px;
+    max-width: 275px;
+    margin-left: 20px;
+    list-style: none;
+    background-color: #f9d806b0;
+    padding: 20px;
+
+
+}
+
+.contact-container{
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+
+}
+
+
+.contact-container h2{
+    font-size: 36px;
+}
+
+.contact-container p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.contact-container input,  .contact-container{
+    width: ;
+    padding: ;
+    font-size: ;
+    border-radius: ;
+    border: ;
+    margin-left: ;
+    margin-right: ;
+margin-bottom:20px;
+}
+.contact-container
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
